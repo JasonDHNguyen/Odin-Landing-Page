@@ -8,6 +8,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -17,14 +19,30 @@ html {
 header {
     display: flex;
     justify-content: space-between;
-    height: 4em;
+    height: 7em;
+    padding: 1em;
+    background-color: var(--color-dark);
+    align-items: center;
+}
+
+.header-icon {
+    width: 7em;
+    height: 5.5em;
+}
+
+nav {
+    width: 20%;
+    margin-right: 10em;
 }
 
 ul {
     display: flex;
     list-style: none;
+    justify-content: space-around;
 }
 
 a {
     text-decoration: none;
+    color: var(--color-neutral);
+    font-size: 18px;
 }
