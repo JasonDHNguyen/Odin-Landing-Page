@@ -46,3 +46,44 @@ a {
     color: var(--color-neutral);
     font-size: 18px;
 }
+
+#home {
+    display: flex;
+    background-color: var(--color-dark);
+    padding: 7em 15em;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+    gap: 1em;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--color-light);
+}
+
+p {
+    font-size: 18px;
+    color: var(--color-neutral);
+}
+
+button {
+    background-color: var(--color-btn);
+    color: var(--color-light);
+    width: 6em;
+    height: 2em;
+    border-radius: 0.5em;
+    border: none;
+}
+
+.home-image {
+    width: 50em;
+    border-radius: 1em;
+    margin: 0 5em 3em;
+}
+
+/* Adding and optimizing font colors and styles */
