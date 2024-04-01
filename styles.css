@@ -1,0 +1,30 @@
+:root {
+    --color-dark: #1F2937;
+    --color-neutral: #E5E7EB;
+    --color-light: #F9FAF8;
+    --color-btn: #3882F6;
+    --color-text: #1F2937;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
